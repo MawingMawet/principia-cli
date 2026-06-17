@@ -13,10 +13,16 @@ export interface FeaturedModel {
 export const FEATURED_MODELS = {
 	recommended: [
 		{
-			id: "anthropic/claude-opus-4.6",
-			name: "Claude Opus 4.6",
+			id: "anthropic/claude-opus-4-8",
+			name: "Claude Opus 4.8",
 			description: "State-of-the-art for complex coding",
 			labels: ["BEST"],
+		},
+		{
+			id: "anthropic/claude-opus-4.6",
+			name: "Claude Opus 4.6",
+			description: "Previous-generation flagship",
+			labels: [],
 		},
 		{
 			id: "openai/gpt-5.2-codex",
